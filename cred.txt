@@ -1,2 +1,0 @@
-username = pawan415
-password = pawan415
