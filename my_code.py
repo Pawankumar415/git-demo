@@ -4,6 +4,7 @@ def my_fun():
     print("hello python")
     print("hii kumar")
     print("this is print")
+    print("take the action")
 
 
 my_fun()
