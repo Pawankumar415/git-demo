@@ -1,8 +1,8 @@
 def my_fun():
     print("hello")
-    print("hello pawan!!!")
+    print("hello django!!!")
     print("hello python")
-    print("hii kumar")
+    print("hii data")
     print("this is print")
     print("take the action")
 
