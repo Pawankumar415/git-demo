@@ -344,6 +344,164 @@ name = "Raj"
 
 
 
+# for loop
+import time
+
+# data = "Pawankumar"
+# for k in data:
+#     print(k)
+#     time.sleep(1)
+
+# str, list, tuple, set , dict
+
+# names = ["pawan", "rishabh", "raj","dinesh", "rajesh","suraj","abi","seetha"]
+
+# for i in range(3):
+#     print(f"Hello, {names[i]}")
+
+# data = ["pawan"+str(i) for i in range(2000)]
+# print(len(data))
+
+
+
+
+
+
+# for i in range(0,10,2):
+#     print(i)
+
+
+# for i in range(10):
+#     print(i)
+#     if i == 6:
+#         print("found 6")
+#         break
+
+
+# names = ["pawan", "rishabh", "raj","dinesh", "rajesh","suraj","abi","seetha"]
+# for i in names:
+#     if i == "suraj":
+#         print("yes name found suraj")
+#         break
+#     print(i)
+
+
+# for i in range(4):
+#     if i >= 3:
+#         print("you exceed 3 more than 3 times card is blocked contact you branch")
+#         break
+#     user_pin = input("enter the pin: ")
+#     if user_pin == "1234":
+#         print("pin is correct")
+#         break
+#     else:
+#         print("wrong pin try again: ")
+# num = int(input("enter the number: "))
+# for i in range(1,11):
+#     print(f"{num} X {i} = {num*i}")
+
+
+
+
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   if x == "banana":
+#     break
+# print(x)
+
+
+# names = ["pawan", "rishabh", "kumar","raj"]
+#
+# for i in names:
+#   if i == "kumar":
+#     continue
+#     print(i)
+#   print(i)
+
+
+
+
+# for x in range(6):
+#   if x == 2:
+#     continue
+#   print(x)
+# else:
+#   print("Finally finished!")
+
+
+
+# for x in range(6):
+#   if x == 8:
+#     break
+#   print(x)
+# else:
+#   print("Finally finished!")
+
+#
+# adj = ["red", "big", "tasty"]
+# fruits = ["apple", "banana", "cherry"]
+#
+# for x in adj:
+#   for y in fruits:
+#     print(x, y)
+
+# for i in range(1,4):
+#     print(f"outer loop {i}")
+#     for j in range(1,6):
+#         print(f"                      inner loop{j}")
+
+
+
+# for i in range(10):
+#     pass
+#
+#
+#
+#
+# print("pawan")
+
+#
+# user_pin = input("enter the pin: ")
+# while user_pin != '1234':
+#     user_pin = input("wrong pin try again enter the pin: ")
+# print("pin correct ")
+
+# i = 1
+# while i < 6:
+#   print(i)
+#   if (i == 3):
+#     break
+#   i += 10
+
+
+# i = 0
+# while i < 6:
+#   i += 1
+#   if i == 3:
+#     continue
+#   print(i)
+
+
+
+# i = 1
+# while i < 6:
+#   print(i)
+#   i += 1
+# else:
+#   print("i is no longer less than 6")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
