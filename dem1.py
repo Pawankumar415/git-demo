@@ -495,6 +495,20 @@ import time
 
 
 
+# # this is basic loop when you execute this code it will print the name 10 times
+# for i in range(10):
+#     print("kumar")
+
+
+
+
+# import itertools
+#
+# def find_permutations(string):
+#     perms = [''.join(p) for p in itertools.permutations(string)]
+#     return perms
+#
+# print(find_permutations('pawan'))  # ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
 
 
 
@@ -503,6 +517,129 @@ import time
 
 
 
+#
+
+
+# import itertools
+#
+# def guess_password(password_length, target_password):
+#     print(f"**DEBUG**: Starting password guessing process...")
+#     print(f"**DEBUG**: Target password: {target_password}")
+#     print(f"**DEBUG**: Password length: {password_length}")
+#
+#     chars = 'abcdefghijklmnopqrstuvwxyz0123456789'
+#     print(f"**DEBUG**: Using character set: {chars}")
+#
+#     attempt_count = 0
+#     for attempt in itertools.product(chars, repeat=password_length):
+#         attempt_count += 1
+#         password = ''.join(attempt)
+#         print(f"**DEBUG**: Attempt {attempt_count}: {password}")
+#
+#         if password == target_password:
+#             print(f"**DEBUG**: Password found! {password} == {target_password}")
+#             return True
+#
+#     print(f"**DEBUG**: Password not found after {attempt_count} attempts.")
+#     return False
+#
+# user_input = input("Enter the password: ")
+# print(f"**DEBUG**: User input: {user_input}")
+# password_length = len(user_input)
+# print(f"**DEBUG**: Password length: {password_length}")
+#
+# if guess_password(password_length, user_input):
+#     print("Password found!")
+# else:
+#     print("Password not found.")
+
+
+
+
+# numbers = [-5, 10, -3, 7, -2, 8]
+# positive_sum = 0
+# negative_sum = 0
+#
+# for num in numbers:
+#     if num > 0:
+#         positive_sum += num
+#     else:
+#         negative_sum += num
+#
+# print("Sum of positive numbers:", positive_sum)
+# print("Sum of negative numbers:", negative_sum)
+
+# numbers =[1,-2,3,-4,5,-6]
+# positive_sum = 0
+# negative_sum= 0
+# for num in numbers:
+#     if num > 0:
+#         positive_sum+= num
+#     else:
+#         negative_sum+= num
+# print ("sum of positive numbers:",positive_sum)
+# print(" sum of negative numbers:",negative_sum)
+
+#
+#
+# p = 0
+# n = 0
+#
+# numbers =[1,-2,3,-4,5,-6]
+# for i in numbers:
+#     if i > 0:
+#         p+=i
+#     else:
+#         n+=i
+#
+# print("positive_sum: ", p)
+# print("negative_sum: ", n)
+
+
+
+
+# data = "python programming#@*"
+#
+# v = 0
+# c = 0
+#
+# for i in data:
+#     if i.lower() in "aeiou":
+#         v+=1
+#     elif i.isalpha():
+#         c+=1
+#
+# print("total vowels count: ",v)
+# print("total constant count: ", c)
+
+
+
+# user = input("enter the character: ")
+# if user.islower():
+#     print("yes ")
+# else:
+#     print("No")
+
+
+# n = 1
+# while n <= 10:
+#     if n == 7:
+#         print("Reached 7, stopping loop.")
+#         break
+#     else:
+#         print(n)
+#     n += 1
+
+
+# numbers = [11, 10, 25, 20, 11]
+# index = 0
+# while index < len(numbers):
+#     if numbers[index]%3==0:
+#         print(f"{numbers[index]} is divisible by 3 ")
+#         break
+#     index+=1
+# else:
+#     print("no value found!!")
 
 
 
@@ -510,9 +647,55 @@ import time
 
 
 
+# iterable: str, list,tuple,set,dict,range
+# non iterable int float
+
+# data = '1234'
+# d= iter(data) # it will convert iterables to iterator
+# # print(next(d))
+# # print(next(d))
+# # print(next(d))
+# # print(next(d))
+#
+# print(d.__next__())
+# print(d.__next__())
+# print(d.__next__())
+# print(d.__next__())
+# print(d.__next__())
+
+
+# iterables  __iter__()
+# iterator __next__()
 
 
 
+
+
+# python list
+
+
+# employees_names1 = "pawan"
+# employees_names2 = "dinesh"
+# employees_names3 = "dinesh"
+# employees_names4 = "raj"
+# employees_names5 = "rishabh"
+
+employees_names = ["pawan","dinesh","raj","kk","raj"]
+#
+# data = [employees_names.index(i)  for i in employees_names if i=="raj"]
+# print(data)
+
+
+for i,j in enumerate(employees_names):
+    if j == 'raj':
+        print(i,j)
+
+
+
+
+# for i in data:
+#     print(i)
+#print(dir(d)) # __iter__
 
 
 
